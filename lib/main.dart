@@ -5,6 +5,8 @@ void main(){
 }
 
 class MyApp extends StatelessWidget{
+  const MyApp({super.key});
+
   @override
   Widget build(BuildContext context){
     return MaterialApp(
@@ -20,7 +22,7 @@ class MyApp extends StatelessWidget{
 }
 
 class FirstScreen extends StatelessWidget{
-  const FirstScreen({Key? key}) : super(key: key);
+  const FirstScreen({super.key});
  
   @override
 
