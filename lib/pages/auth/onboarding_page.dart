@@ -16,17 +16,17 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
     {
       "title": "Belajar Mudah",
       "subtitle": "Akses materi coding kapan saja, di mana saja.",
-      "image": "assets/images/laptop-2298286_1280.png"
+      "image": "assets/images/laptop-2298286_1280.png" // Ini gambarnya dari https://pixabay.com/vectors/laptop-computer-portable-pc-2298286/ (entar dimasukin ke readme sumbernya)
     },
     {
       "title": "Latihan Interaktif",
       "subtitle": "Tugas coding interaktif yang bikin makin jago.",
-      "image": "assets/images/pixel-cells-3947911_1280.png"
+      "image": "assets/images/pixel-cells-3947911_1280.png" // ini gambarnya dari https://pixabay.com/vectors/pixel-cells-portfolio-work-folder-3947911/
     },
     {
       "title": "Mentor & Komunitas",
       "subtitle": "Diskusi bareng mentor dan programmer lain.",
-      "image": "assets/images/social-media-3846597_1280.png"
+      "image": "assets/images/social-media-3846597_1280.png" // ini gambarnya dari https://pixabay.com/vectors/social-media-connections-networking-3846597/
     },
   ];
 
@@ -76,7 +76,6 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
               ),
             ),
 
-            // indicator
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: List.generate(
@@ -94,7 +93,6 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
             ),
             const SizedBox(height: 20),
 
-            // button next / mulai
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 24.0),
               child: SizedBox(

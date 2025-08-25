@@ -39,7 +39,7 @@ class _LoginScreenState extends State<LoginScreen> {
                   ),
                   const SizedBox(height: 16),
 
-                  /// Email
+                  // Input form untuk isi email
                   TextField(
                     controller: _emailController,
                     decoration: const InputDecoration(
@@ -50,7 +50,7 @@ class _LoginScreenState extends State<LoginScreen> {
                   ),
                   const SizedBox(height: 16),
 
-                  /// Password
+                  // Input form untuk isi password
                   TextField(
                     controller: _passwordController,
                     obscureText: true,
@@ -103,7 +103,7 @@ class _LoginScreenState extends State<LoginScreen> {
                   ),
                   const SizedBox(height: 12),
 
-                  /// Forgot Password
+                  // Forgot Password (masih belum dibuat halamanya, nanti bareng sign up bakal dibuat)
                   TextButton(
                     onPressed: () {
                     },
