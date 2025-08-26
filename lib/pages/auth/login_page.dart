@@ -17,7 +17,8 @@ class _LoginScreenState extends State<LoginScreen> {
     return Scaffold(
       backgroundColor: const Color(0xFF2d3e50),
       body: Center(
-        child: Padding(
+        child: 
+        SingleChildScrollView(
           padding: const EdgeInsets.all(24.0),
           child: Card(
             shape: RoundedRectangleBorder(
